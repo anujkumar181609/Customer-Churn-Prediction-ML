@@ -13,7 +13,16 @@ This project uses Logistic Regression and is deployed with Streamlit for real-ti
 Customer churn prediction is a critical business problem in telecom and subscription-based industries. Retaining customers is significantly more cost-effective than acquiring new ones.
 
 This model identifies high-risk customers so businesses can take proactive retention actions.
+---
 
+## 🌐 Live Demo
+
+🚀 Try the deployed application here:
+
+[Customer Churn Prediction App](https://customer-churn-prediction-ml-snsradfqmbpcgf9n63uqso.streamlit.app/)
+
+> ⚠️ Note: The application is hosted on Streamlit Community Cloud free tier and may take a few seconds to wake up after inactivity.
+---
 
 📁 Dataset Features
 
