@@ -1,4 +1,4 @@
-📊 Customer Churn Prediction using Machine Learning
+##📊 Customer Churn Prediction using Machine Learning
 
 Predict whether a customer is likely to churn based on billing and contract information.
 
@@ -8,7 +8,7 @@ This project uses Logistic Regression and is deployed with Streamlit for real-ti
 ---
 
 
-🚀 Project Objective
+##🚀 Project Objective
 
 Customer churn prediction is a critical business problem in telecom and subscription-based industries. Retaining customers is significantly more cost-effective than acquiring new ones.
 This model identifies high-risk customers so businesses can take proactive retention actions.
@@ -24,7 +24,7 @@ This model identifies high-risk customers so businesses can take proactive reten
 > ⚠️ Note: The application is hosted on Streamlit Community Cloud free tier and may take a few seconds to wake up after inactivity.
 ---
 
-📁 Dataset Features
+##📁 Dataset Features
 
 The model uses the following input features:
 
@@ -44,7 +44,7 @@ Churn (0 = No, 1 = Yes)
 ---
 
 
-🔎 Exploratory Data Analysis (EDA) Insights
+##🔎 Exploratory Data Analysis (EDA) Insights
 
 Customers with month-to-month contracts show higher churn rates.
 
@@ -58,7 +58,7 @@ Dataset shows moderate class imbalance.
 
 
 
-🧠 Model Details
+##🧠 Model Details
 
 Algorithm: Logistic Regression
 
@@ -66,7 +66,7 @@ Custom Threshold Used: 0.4
 
 Reason: To improve churn recall while maintaining reasonable precision
 
-📊 Model Performance
+##📊 Model Performance
 Metric	Value
 Accuracy	~79%
 Precision (Churn)	58%
@@ -79,7 +79,7 @@ The threshold was tuned to balance business impact between false positives and f
 ---
 
 
-📌 Confusion Matrix
+##📌 Confusion Matrix
 [[423  95]
  [ 54 133]]
 
@@ -97,7 +97,7 @@ The model captures 71% of actual churners, which is valuable for retention strat
 ---
 
 
-💻 Deployment (Streamlit App)
+##💻 Deployment (Streamlit App)
 
 The project includes a simple interactive web app built using Streamlit.
 
@@ -116,7 +116,7 @@ customer-churn-prediction-ml/
 ---
 
 
-📈 Business Value
+##📈 Business Value
 
 Helps businesses identify high-risk customers
 
@@ -131,7 +131,7 @@ Improves customer lifetime value (CLV)
 
 
 
-🔮 Future Improvements
+##🔮 Future Improvements
 
 Implement Random Forest / XGBoost
 
