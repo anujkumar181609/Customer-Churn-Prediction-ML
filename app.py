@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from pathlib import Path
 
 # Page config
 st.set_page_config(page_title="Churn Predictor", page_icon="📊", layout="centered")
@@ -11,7 +12,9 @@ st.markdown("<p style='text-align: center;'>Predict whether a customer is likely
 st.markdown("---")
 
 # Load model
-model = pickle.load(open('churn_model.pkl', 'rb'))
+BASE_DIR = Path(__file__).resolve().parent
+model_path = BASE_DIR / "churn_model.pkl"
+model = pickle.load(open(model_path, 'rb'))
 
 # Create two columns
 col1, col2 = st.columns(2)
