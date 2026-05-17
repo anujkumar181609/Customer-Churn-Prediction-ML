@@ -1,4 +1,4 @@
-##📊 Customer Churn Prediction using Machine Learning
+# 📊 Customer Churn Prediction Web Application using Machine Learning
 
 Predict whether a customer is likely to churn based on billing and contract information.
 
@@ -8,7 +8,7 @@ This project uses Logistic Regression and is deployed with Streamlit for real-ti
 ---
 
 
-##🚀 Project Objective
+## 🚀 Project Objective
 
 Customer churn prediction is a critical business problem in telecom and subscription-based industries. Retaining customers is significantly more cost-effective than acquiring new ones.
 This model identifies high-risk customers so businesses can take proactive retention actions.
@@ -24,7 +24,7 @@ This model identifies high-risk customers so businesses can take proactive reten
 > ⚠️ Note: The application is hosted on Streamlit Community Cloud free tier and may take a few seconds to wake up after inactivity.
 ---
 
-##📁 Dataset Features
+## 📁 Dataset Features
 
 The model uses the following input features:
 
@@ -36,15 +36,16 @@ Total Charges – Lifetime spending by the customer
 
 Contract Type – Month-to-Month, One Year, Two Year
 
-Target Variable:
+### 🎯 Target Variable
 
-Churn (0 = No, 1 = Yes)
-
+- **Churn**
+  - `0 = No`
+  - `1 = Yes`
 
 ---
 
 
-##🔎 Exploratory Data Analysis (EDA) Insights
+## 🔎 Exploratory Data Analysis (EDA) Insights
 
 Customers with month-to-month contracts show higher churn rates.
 
@@ -58,15 +59,16 @@ Dataset shows moderate class imbalance.
 
 
 
-##🧠 Model Details
+## 🧠 Model Details
 
 Algorithm: Logistic Regression
 
 Custom Threshold Used: 0.4
 
-Reason: To improve churn recall while maintaining reasonable precision
+### 📌 Why Threshold Tuning?
+The threshold was adjusted to improve churn recall while maintaining reasonable precision, helping businesses identify more at-risk customers.
 
-##📊 Model Performance
+## 📊 Model Performance
 Metric	Value
 Accuracy	~79%
 Precision (Churn)	58%
@@ -79,7 +81,7 @@ The threshold was tuned to balance business impact between false positives and f
 ---
 
 
-##📌 Confusion Matrix
+## 📌 Confusion Matrix
 [[423  95]
  [ 54 133]]
 
@@ -97,7 +99,8 @@ The model captures 71% of actual churners, which is valuable for retention strat
 ---
 
 
-##💻 Deployment (Streamlit App)
+
+## Deployment (Streamlit App)
 
 The project includes a simple interactive web app built using Streamlit.
 
@@ -114,9 +117,8 @@ customer-churn-prediction-ml/
 └── README.md
 
 ---
-
-
-##📈 Business Value
+ 
+## 📈 Business Value
 
 Helps businesses identify high-risk customers
 
@@ -129,9 +131,7 @@ Improves customer lifetime value (CLV)
 
 ---
 
-
-
-##🔮 Future Improvements
+## 🔮 Futuree Improvements
 
 Implement Random Forest / XGBoost
 
@@ -139,15 +139,13 @@ Perform K-Fold Cross Validation
 
 Advanced Feature Engineering
 
-Deploy on Cloud (Streamlit Cloud / Render / AWS)
-
 Add Feature Importance Visualization
 
 
 ---
 
 
-👨‍💻 Author
+👨‍💻 **Author**
 
 Anuj
 B.Tech CSE (AI & ML)
