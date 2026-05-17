@@ -11,8 +11,8 @@ This project uses Logistic Regression and is deployed with Streamlit for real-ti
 🚀 Project Objective
 
 Customer churn prediction is a critical business problem in telecom and subscription-based industries. Retaining customers is significantly more cost-effective than acquiring new ones.
-
 This model identifies high-risk customers so businesses can take proactive retention actions.
+
 ---
 
 ## 🌐 Live Demo
