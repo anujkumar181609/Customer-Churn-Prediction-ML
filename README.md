@@ -106,7 +106,9 @@ The project includes a simple interactive web app built using Streamlit.
 
 ▶️ Run Locally
 pip install -r requirements.txt
+
 streamlit run app.py
+
 📦 Project Structure
 customer-churn-prediction-ml/
 │
