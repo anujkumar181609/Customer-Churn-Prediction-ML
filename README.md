@@ -1,4 +1,4 @@
-# 📊 Teleco Customer Churn Prediction Web Application using Machine Learning
+# 📊 Customer Churn Prediction Web Application using Machine Learning
 
 Predict whether a customer is likely to churn based on billing and contract information.
 
